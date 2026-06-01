@@ -5,6 +5,7 @@ import os
 import argparse
 import matplotlib.pyplot as plt
 
+
 class FisheyeCameraCalibration:
     def __init__(self, checkerboard_size=(9, 6), square_size=0.025):
         self.checkerboard_size = checkerboard_size
